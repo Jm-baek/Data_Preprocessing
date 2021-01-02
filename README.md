@@ -1,15 +1,15 @@
 # Project 1. 태양광 발전량 예측
 
-Tip : 논문 검색시, Review 논문을 통해 연구하고자 하는 분야의 Summary와 흐름을 파악하는 것이 도움이 된다.
-      Review 논문은 선행 연구들의 연구 방향(흐름)과 사용 모델 및 데이터 등에 대해 요약을 해놓은 논문이다.
+Tip : 논문 검색시, Review 논문을 통해 연구하고자 하는 분야의 Summary와 흐름을 파악하는 것이 도움이 된다. <BR/>
+      Review 논문은 선행 연구들의 연구 방향(흐름)과 사용 모델 및 데이터 등에 대해 요약을 해놓은 논문이다. <BR/>
 
-Reference literature(참고 문헌)
-JCR web을 통해 학회 수준을 확인할 수 있다.(Elsevier에 있는 학회 논문에 실려진 논문들이 좋다)
+Reference literature(참고 문헌) <BR/>
+JCR web을 통해 학회 수준을 확인할 수 있다.(Elsevier에 있는 학회 논문에 실려진 논문들이 좋다) <BR/>
 
-[1] Sobri, S., Koohi-Kamali, S., & Rahim, N. A. (2018). Solar photovoltaic generation forecasting methods: A review. Energy Conversion and Management, 156, 459-497.
-[2] Antonanzas, J., Osorio, N., Escobar, R., Urraca, R., Martinez-de-Pison, F. J., & Antonanzas-Torres, F. (2016). Review of photovoltaic power forecasting. Solar Energy, 136, 78-111.
-[3] Sangrody, H., Sarailoo, M., Zhou, N., Tran, N., Motalleb, M., & Foruzan, E. (2017). Weather forecasting error in solar energy forecasting. IET Renewable Power Generation, 11(10), 1274-1280.
-[4] Carrera, B., Sim, M. K., & Jung, J. Y. (2020). PVHybNet: a hybrid framework for predicting photovoltaic power generation using both weather forecast and observation data. IET Renewable Power Generation, 14(12), 2192-2201.
+[1] Sobri, S., Koohi-Kamali, S., & Rahim, N. A. (2018). Solar photovoltaic generation forecasting methods: A review. Energy Conversion and Management, 156, 459-497. <BR/>
+[2] Antonanzas, J., Osorio, N., Escobar, R., Urraca, R., Martinez-de-Pison, F. J., & Antonanzas-Torres, F. (2016). Review of photovoltaic power forecasting. Solar Energy, 136, 78-111. <BR/>
+[3] Sangrody, H., Sarailoo, M., Zhou, N., Tran, N., Motalleb, M., & Foruzan, E. (2017). Weather forecasting error in solar energy forecasting. IET Renewable Power Generation, 11(10), 1274-1280. <BR/>
+[4] Carrera, B., Sim, M. K., & Jung, J. Y. (2020). PVHybNet: a hybrid framework for predicting photovoltaic power generation using both weather forecast and observation data. IET Renewable Power Generation, 14(12), 2192-2201. <BR/>
 
 
 1. 데이터 수집
