@@ -14,8 +14,8 @@ JCR web을 통해 학회 수준을 확인할 수 있다.(Elsevier에 있는 학�
 
 1. 데이터 수집
 
-  + 기상 관측데이터는 기상 관측소에서 측정한 데이터로 다양한 기상 요소 데이터를 수집할 수 있으며, 데이터의 정확도에 신뢰를 할 수 있다.<BR/>
-  + 기상 예보데이터는 기상 관측데이터를 사용하여 예측된 데이터로 가장 큰 단점으로는 기상의 변동성(variability), 불확실성(uncertainty)으로 인한 모델 정확도 성능에 영향을 준다.<BR/>
+  + **기상 관측데이터**는 기상 관측소에서 측정한 데이터로 다양한 기상 요소 데이터를 수집할 수 있으며, 데이터의 정확도에 신뢰를 할 수 있다.<BR/>
+  + **기상 예보데이터**는 기상 관측데이터를 사용하여 예측된 데이터로 가장 큰 단점으로는 기상의 변동성(variability), 불확실성(uncertainty)으로 인한 모델 정확도 성능에 영향을 준다.<BR/>
   
 
   1) 수집 데이터 사이트
@@ -25,25 +25,25 @@ JCR web을 통해 학회 수준을 확인할 수 있다.(Elsevier에 있는 학�
 
   2) Data summary
   
-      독립 변수(input/dependent/explanatory variable) :  <BR/>
- 
-       모델 생성을 위한 데이터, 미래 시간에 대한 태양광 발전량 예측을 위한 기상 예보 데이터 <BR/>
-  
-  + 기상 예보 데이터 <BR/>
-  
-    - 초단기(forecast 1 hour ahead) <BR/>
-    
-      Date(target_time), Time(Derived variable), Temperature, WindSpeed, WindDirection, Humidity, Cloud amount (tgt_time은 인덱스 외, 총 6개 변수) <BR/>
-   
-    - 단기(forecast 4, 7, 13, 22 hour ahead) <BR/>
+      + 기상 예보 데이터 <BR/>
+          
+          + 독립 변수
+          
+          - 초단기(forecast 1 hour ahead) <BR/>
 
-      Date(target_time), time(Derived variable), Temperature, WindSpeed, WindDirection, Humidity, SkyType (tgt_time은 인덱스 외, 총 6개 변수) <BR/>
-    
-    - 파생 변수(Derived variable)  <BR/>
-    
+            Date(target_time), Time(Derived variable), Temperature, WindSpeed, WindDirection, Humidity, Cloud amount (tgt_time은 인덱스 외, 총 6개 변수) <BR/>
+
+          - 단기(forecast 4, 7, 13, 22 hour ahead) <BR/>
+
+            Date(target_time), time(Derived variable), Temperature, WindSpeed, WindDirection, Humidity, SkyType (tgt_time은 인덱스 외, 총 6개 변수) <BR/>
+
+          + 파생 변수(Derived variable)  <BR/>
+           
+           - Time
+           
       Time column(시간)
 
-   + 기상 관측 데이터 <BR/>
+       + 기상 관측 데이터 <BR/>
   
   
  
