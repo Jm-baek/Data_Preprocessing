@@ -1,13 +1,13 @@
 # Project 1. 태양광 발전량 예측
 
-1. 사용 데이터
+1. Data description 
 
-  1) 수집 데이터 사이트 <BR/>
+  1-1) 수집 데이터 사이트 <BR/>
   
       기상자료개방포털: https://data.kma.go.kr/cmmn/main.do (독립 변수 수집) <BR/>
       공공데이터포털 : https://www.data.go.kr/ (종속변수 수집) <BR/>
 
-  2) Data summary <BR/>
+  1-2) Data summary <BR/>
    + 기상 관측데이터 <BR/>
      + 장점 <BR/>
      1. 기상 관측소에서 측정한 데이터로 다양한 기상 요소 데이터를 수집할 수 있으며, 데이터의 정확도에 대해 신뢰를 할 수 있다. <BR/>
@@ -23,22 +23,26 @@
     (다시 말하면, 기상이 다양한 이유로 시간이 흐르면서 항상 변하기 때문에 정확한 미래의 기상 데이터를 얻기 어렵다.)
 
   
-   2-1) 기상 예보 데이터 <BR/>
-          
-          + 독립 변수
-          
-          - 초단기(forecast 1 hour ahead) <BR/>
+2. Data Preprocessing
+위 사이트에서 데이터를 다운받아보면 바로 사용할 수 없게 데이터가 구성이 되어있다. <BR/>
+가급적 외국의 잘 되어 있는 기상 데이터를 사용하기를 추천한다.(전반적으로 과거 데이터는 quality(결측치,정확도 등) 문제와 전처리 시간이 많이 소요된다.) <BR/>
 
-            Date(target_time), Time(Derived variable), Temperature, WindSpeed, WindDirection, Humidity, Cloud amount (tgt_time은 인덱스 외, 총 6개 변수) <BR/>
+기상 예보 데이터 <BR/>
 
-          - 단기(forecast 4, 7, 13, 22 hour ahead) <BR/>
++ 독립 변수
 
-            Date(target_time), time(Derived variable), Temperature, WindSpeed, WindDirection, Humidity, SkyType (tgt_time은 인덱스 외, 총 6개 변수) <BR/>
+- 초단기(forecast 1 hour ahead) <BR/>
 
-          + 파생 변수(Derived variable)  <BR/>
-           
-           - Time(Data로부터 파생)
-     
+  Date(target_time), Time(Derived variable), Temperature, WindSpeed, WindDirection, Humidity, Cloud amount (tgt_time은 인덱스 외, 총 6개 변수) <BR/>
+
+- 단기(forecast 4, 7, 13, 22 hour ahead) <BR/>
+
+  Date(target_time), time(Derived variable), Temperature, WindSpeed, WindDirection, Humidity, SkyType (tgt_time은 인덱스 외, 총 6개 변수) <BR/>
+
++ 파생 변수(Derived variable)  <BR/>
+
+ - Time(Data로부터 파생)
+
 
        + 기상 관측 데이터 <BR/>
   
