@@ -15,48 +15,29 @@
      + 단점 <BR/>
      > 현재시간에 대해 기상 데이터를 가지고 있다.(다시 말하면, 필요한 미래의 시간이 없다.) <BR/>
             
-   + 기상 예보데이터 <BR/>
+   + 기상 예보데이터(초단기예보, 단기예보) <BR/>
      + 장점 <BR/>
      > 미래 시간을 가지고 있어 미래 시간의 태양광 발전량을 예측할 수 있다. <BR/>
      + 단점 <BR/>
      > 기상의 변동성(variability), 불확실성(uncertainty)으로 데이터의 quality 문제로 모델 정확도 성능에 영향을 준다. <BR/>
      > (다시 말하면, 기상이 다양한 이유로 시간이 흐르면서 항상 변하기 때문에 정확한 미래의 기상 데이터를 얻기 어렵다.) <BR/>
-
+   + 파생 변수(Derived variable <BR/>
+     + Data Column으로 부터 time을 추출 <BR/>
   
-2. Data Preprocessing
+2. Data Preprocessing <BR/>
 위 사이트에서 데이터를 다운받아보면 바로 사용할 수 없게 데이터가 구성이 되어있다. <BR/>
 가급적 외국의 잘 되어 있는 기상 데이터를 사용하기를 추천한다.(전반적으로 과거 데이터는 quality(결측치,정확도 등) 문제와 전처리 시간이 많이 소요된다.) <BR/>
 
-기상 예보 데이터 <BR/>
-
-+ 독립 변수
-
-- 초단기(forecast 1 hour ahead) <BR/>
-
-  Date(target_time), Time(Derived variable), Temperature, WindSpeed, WindDirection, Humidity, Cloud amount (tgt_time은 인덱스 외, 총 6개 변수) <BR/>
-
-- 단기(forecast 4, 7, 13, 22 hour ahead) <BR/>
-
-  Date(target_time), time(Derived variable), Temperature, WindSpeed, WindDirection, Humidity, SkyType (tgt_time은 인덱스 외, 총 6개 변수) <BR/>
-
-+ 파생 변수(Derived variable)  <BR/>
-
- - Time(Data로부터 파생)
+  2-1) Missing data imputation  <BR/>
+데이터 전처리를 하며 결측값이 상당히 많은 것을 알 수 있었고 해결하기 위해 논문을 찾아 보았다. <BR/>
+데이터 결측값 처리에 대해서 정말 많은 논문들이 있다. 아마도 데이터 결측값의 처리 방법에 따라 모델의 성능에 많은 영향을 줄 수 있기 때문에으로 생각된다. <BR/>
+가장 기본적인 0값으로 처리, 결측값 제거, 평균(mean), 중앙값(median), 최빈값(mode)에서부터 보간법(interpolation) 등 외에도 더 심화된 방법들이 있다. <BR/>
+> 본 연구에서는 linear interpolation 으로 처리를 했다.
+> !!! linear interpolation에 대해 설명을 조금 더 작성이 필요.!!!!!
 
 
-       + 기상 관측 데이터 <BR/>
-  
-            종속 변수(Output, independent variable) : 전라남도 영암 태양광 발전량 <BR/>
 
-
-2. 탐색적 데이터 분석(EDA)
-      
-      1) 태양광 발전량에 대한 기상 요소들의 상관관계를 파악 <BR/>
-      
-      2) 기상 예보데이터와 관측 데이터의 차이를 비교 <BR/>
-      
-      
-3. 사용 모델 및 방법(Model) 
+3. Models
  
  
  
