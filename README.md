@@ -1,6 +1,6 @@
 # Project 1. 태양광 발전량 예측
 
-1. Data description 
+## 1. Data description 
 
   1-1) 수집 데이터 사이트 <BR/>
   
@@ -24,9 +24,9 @@
    + 파생 변수(Derived variable <BR/>
      + Data Column으로 부터 time을 추출 <BR/>
   
-2. Data Preprocessing <BR/>
+## 2. Data Preprocessing <BR/>
 위 사이트에서 데이터를 다운받아보면 바로 사용할 수 없게 데이터가 구성이 되어있다. <BR/>
-가급적 외국의 잘 되어 있는 기상 데이터를 사용하기를 추천한다.(전반적으로 과거 데이터는 quality(결측치,정확도 등) 문제와 전처리 시간이 많이 소요된다.) <BR/>
+가급적 외국의 잘 되어 있는 기상 데이터를 사용하기를 추천한다.(전반적으로 데이터의 quality(결측치,정확도 등) 문제와 전처리 시간이 많이 소요된다.) <BR/>
 
   2-1) Missing data imputation  <BR/>
 데이터 전처리를 하며 결측값이 상당히 많은 것을 알 수 있었고 해결하기 위해 논문을 찾아 보았다. <BR/>
@@ -37,8 +37,9 @@
 
 
 
-3. Models
- 
+## 3. Models
+태양광 발전량의 예측하는 방법에는 전체적으로 세 가지 방법이 있다. (
+3-1) 
  
  
  
