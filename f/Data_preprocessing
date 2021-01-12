@@ -1,8 +1,0 @@
-# Counting number of nodes each layer
-def node_count(node,k):
-    # k is a number of layers
-    # if k = 3, model has total 3 layers
-    print('layer 0, number of node : {}  '.format(node))
-    for i in range(1,k):
-        new_node = int(node/(2**i)) if node/(2**i) >= 64 else 32
-        print('layer {}, number of node : {}'.format(i,new_node))
