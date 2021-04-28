@@ -4,8 +4,8 @@
 
   1-1) 수집 데이터 사이트 <BR/>
   
-      기상자료개방포털: https://data.kma.go.kr/cmmn/main.do (독립 변수 수집) <BR/>
-      공공데이터포털 : https://www.data.go.kr/ (종속변수 수집) <BR/>
+      기상자료개방포털: https://data.kma.go.kr/cmmn/main.do (독립 변수 수집) 
+      공공데이터포털 : https://www.data.go.kr/ (종속변수 수집) 
 
   1-2) Data summary <BR/>
    + 기상 관측데이터 <BR/>
