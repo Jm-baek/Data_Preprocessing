@@ -2,3 +2,9 @@
 
 첫 번째
 1. yolov4 model 사용 
+
+
+2. yolov4x-mish model 사용
+
+
+3. yolov4-csp model 사용
