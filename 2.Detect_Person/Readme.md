@@ -2,7 +2,13 @@
 
 ## 1. yolov4 model 무작정 학습시켜보기
 회사에서 yolov4로 진행을 하고 있어서 yolov4 모델을 사용하여 학습을 진행<br/>
-yolov4는 darknet이라는 개성있는 프레임워크 툴을 사용하고 있다.
+yolov4는 darknet이라는 자기만의 개성있는 프레임워크 툴을 사용하고 있다.
+
+object detection
+1. one-stage-detection
+2. 
+3. two-stage-detection
+
 
 ### 진행 과정
 1. yolov4 model 및 사람 데이터 
