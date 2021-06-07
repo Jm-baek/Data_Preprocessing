@@ -24,3 +24,8 @@ object detection
 
 
 3. yolov4-csp model 사용
+
+
+
+### 어떻게 특정 행동(action)을 잡을 수 있을까?
+person과 down person 이렇게 나눠서 학습을 진행해야될까???
