@@ -27,5 +27,5 @@ object detection
 
 
 
-### 어떻게 특정 행동(action)을 잡을 수 있을까?
+## 3. 어떻게 특정 행동(action)을 잡을 수 있을까?(쓰러짐과 서 있는 사람 구별)
 person과 down person 이렇게 나눠서 학습을 진행해야될까???
