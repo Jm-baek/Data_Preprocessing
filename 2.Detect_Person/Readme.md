@@ -68,13 +68,15 @@ CNN분야가 모델을 자체적으로 만들기에는 힘들 수 있다는 것�
 ![image](https://user-images.githubusercontent.com/57121112/122665117-5f7f7480-d1e0-11eb-8f93-13df0645e404.png)
 
 
-#### 5. 이미지 화질 높이기
+#### 5. 이미지 화질 높이기(Image Super-Resolution)
 계속 이미지 작업을 한다는 과정에서 모델 성능을 조금? 이라도 더 높이기 위해 방법을 찾아보았다.  
 인터넷에서 이미지들을 수집하다 보면 화질이 떨어지는 사진들이 있다.  
 화질이 높을 수록 모델의 성능도 높아진다고 하지만 어떻게 기존의 이미지 화질을 높일 수 있을까?? 고민을 해보았다.  
 이미지 화질을 높이는 딥러닝 모델!?이 존재한다. 정말 신기하다. 한 번 공부해볼 가치가 있다고 생각한다.  
 
-https://www.youtube.com/watch?v=VxRCku4Bkgg
+참고 사이트:  
+https://www.youtube.com/watch?v=VxRCku4Bkgg  
 
+https://www.youtube.com/watch?v=unf2ziKXBP4
 
 진행 중 ~ ing
