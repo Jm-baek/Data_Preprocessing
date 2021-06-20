@@ -43,13 +43,13 @@
 3-1) 
  
  
+
  
  
- 
- 4. 예측 결과
+## 4. 예측 결과
       
 
-**Reference literature(참고 문헌)** <BR/>
+## Reference literature(참고 문헌) <BR/>
 JCR web을 통해 학회 수준을 확인할 수 있다.(Elsevier에 있는 학회 논문에 실려진 논문들이 좋다) <BR/>
 Review 논문은 선행 연구들의 연구 방향(흐름)과 사용 모델 및 데이터 등에 대해 요약을 해놓은 논문이다. <BR/>
 
