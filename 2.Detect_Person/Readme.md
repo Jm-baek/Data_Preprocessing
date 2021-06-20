@@ -1,7 +1,7 @@
 ### 본 프로젝트는 CNN과 Object Detection 분야를 조금씩 알게 되는 과정으로 작성되었습니다.
 
 ## 1. yolov4 model 무작정 학습시켜보기
-회사에서 yolov4로 진행을 하고 있어서 yolov4 모델을 사용하여 학습을 진행.<br/>
+yolov4로 진행을 하고 있어서 yolov4 모델을 사용하여 학습을 진행.<br/>
 yolov4는 darknet이라는 자기만의 개성있는 프레임워크 툴을 사용하고 있다.<br/>
 
 Darknet은 개성이 있는 만큼 간편하게 학습이 가능하지만,<br/>
