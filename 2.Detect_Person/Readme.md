@@ -9,7 +9,7 @@ Darknet은 개성이 있는 만큼 간편하게 학습이 가능하지만,<br/>
 darknet tool을 처음 접하고 어떻게 작동되는지 잘 모르지만 학습을 진행할 수 있었다.<br/>
 
 **object detection**<br/>
-Real time으로 detection 결과를 확인하기 위해서는 FPS가 조금 높게 나오는 모델을 고려  
+Real time으로 detection 결과를 확인하기 위해서는 FPS가 높게 나오는 모델을 고려(FPS와 detection 성능은 trade-off관계)
 1. one-stage-detection  
 2. two-stage-detection  
 
