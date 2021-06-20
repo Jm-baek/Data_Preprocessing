@@ -13,6 +13,8 @@ Real time으로 detection 결과를 확인하기 위해서는 FPS가 높게 나�
 1. one-stage-detection  
 2. two-stage-detection  
 
+**사용 데이터**<br/>
+coco dataset , open images 중에서 선별해서 이미지를 사용하고 있다.  
 
 ### 진행 과정
 #### 1. yolov4 model 및 사람 데이터 
@@ -57,6 +59,9 @@ CNN분야가 모델을 자체적으로 만들기에는 힘들 수 있다는 것�
 그리고 딥러닝이 아닌 opencv 공부를 위해 **"파이썬으로 만드는 OpenCV 프로젝트"** 책을 구매했다.
 
 #### 5. 나무 등 사물 뒤에 있는 사람 학습(이미지 합성)
+사용할 만한 이미지나 영상을 찾고 수집하는 과정까지 상당히 많은 시간이 소요된다.<br/>
+
+![image](https://user-images.githubusercontent.com/57121112/122665117-5f7f7480-d1e0-11eb-8f93-13df0645e404.png)
 
 
 
