@@ -8,9 +8,10 @@ Darknet은 개성이 있는 만큼 간편하게 학습이 가능하지만,<br/>
 일단,darknet tool을 처음 본 나로서는 어떻게 작동되는지 잘 모르지만 학습을 진행할 수 있었다.<br/>
 장기적으로 모델의 세부적인 부분을 접근할 때는 tensorflow나 keras가 좋지 않을까 생각한다.
 
-object detection
-1. one-stage-detection
-2. two-stage-detection
+**object detection**
+Real time으로 detection 결과를 확인하기 위해서는 FPS가 조금 높게 나오는 모델을 고려  
+1. one-stage-detection  
+2. two-stage-detection  
 
 
 ### 진행 과정
