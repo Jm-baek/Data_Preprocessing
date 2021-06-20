@@ -5,8 +5,8 @@
 yolov4는 darknet이라는 자기만의 개성있는 프레임워크 툴을 사용하고 있다.<br/>
 
 Darknet은 개성이 있는 만큼 간편하게 학습이 가능하지만,<br/>
-일단,darknet tool을 처음 본 나로서는 어떻게 작동되는지 잘 모르지만 학습을 진행할 수 있었다.<br/>
-장기적으로 모델의 세부적인 부분을 접근할 때는 tensorflow나 keras가 좋지 않을까 생각한다.
+장기적으로 모델의 세부적인 부분을 접근할 때는 tensorflow나 keras가 좋지 않을까 생각한다.<br/>
+darknet tool을 처음 접하고 어떻게 작동되는지 잘 모르지만 학습을 진행할 수 있었다.<br/>
 
 **object detection**
 Real time으로 detection 결과를 확인하기 위해서는 FPS가 조금 높게 나오는 모델을 고려  
