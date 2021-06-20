@@ -27,7 +27,7 @@ coco dataset , open images 중에서 선별해서 이미지를 사용하고 있�
 - 모델 학습은 가능하고 detection도 잘 된다.
 - 하지만 모델 학습 과정에서 안정적이지 못한 loss 결과를 확인할 수 있다.
 - yolov4와 다르게 조금 더 object를 detail?하게 잡아주는 성능을 보여준다.
-- 일단, 두 모델은 사용하지 않기로 했다.
+- 모델 학습 과정의 불안정으로 두 모델은 일단 사용하지 않기로 했다.
 
 mAP는 상당히 높게 나는데 loss가 왜 저렇게 튀는지 모르겠다.
 ![image](https://user-images.githubusercontent.com/57121112/122663993-7cfd1000-d1d9-11eb-9a1f-5ecfc9736ec3.png)
