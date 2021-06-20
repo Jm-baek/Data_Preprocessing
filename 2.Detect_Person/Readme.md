@@ -25,10 +25,8 @@ object detection
 - 하지만 모델 학습 과정에서 안정적이지 못한 loss 결과를 확인할 수 있다.
 - yolov4와 다르게 조금 더 object를 detail?하게 잡아주는 성능을 보여준다.
 - 일단, 두 모델은 사용하지 않기로 했다.
-![image](https://user-images.githubusercontent.com/57121112/122663666-4faf6280-d1d7-11eb-95a8-9e12834a469d.png)
 
 mAP는 상당히 높게 나는데 loss가 왜 저렇게 튀는지 모르겠다.
-
 ![image](https://user-images.githubusercontent.com/57121112/122663993-7cfd1000-d1d9-11eb-9a1f-5ecfc9736ec3.png)
 
 
@@ -37,7 +35,7 @@ mAP는 상당히 높게 나는데 loss가 왜 저렇게 튀는지 모르겠다.
 - 먼저 쓰러진 사람, 서있는 사람 모두 person으로 학습을 진행했다.
 - 결과는 매우 괜찮게 나오고 있다. class를 두 개로 나눠서 학습할 필요는 없는 듯하다.
 - 하지만, 사람의 쓰러지는 모습은 다양하고 다양한 모습을 학습시키면서 사람 아닌 사물들을 사람으로 잡고 있다.
-- 
+
 ![image](https://user-images.githubusercontent.com/57121112/120961845-8c239d00-c799-11eb-9b89-6b163cea922a.png)
 
 구별 없이 학습을 시켰다~!
