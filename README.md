@@ -2,7 +2,7 @@
 잠시 stop 상태입니다.
 
 ## Project 2. 사람 감지 모델
-In-processing(진행중)
+In-Progress(진행중)
       
       
       
