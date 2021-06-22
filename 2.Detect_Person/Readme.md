@@ -82,7 +82,7 @@ https://www.youtube.com/watch?v=VxRCku4Bkgg
 https://www.youtube.com/watch?v=unf2ziKXBP4
 
 
------------- Note -----------------
+------------ 나의 생각 Note -----------------
 #### 6월 22일  
 영상 -> 사전처리 -> yolov4 -> 후처리 -> 송출  
 
