@@ -87,6 +87,7 @@ https://www.youtube.com/watch?v=VxRCku4Bkgg
 https://www.youtube.com/watch?v=unf2ziKXBP4
 
 최종 이미지 데이터 개수 시각화이다.(실력을 늘려서 더 직관적으로 그리도록 하겠습니다.)  
+
 ![image](https://user-images.githubusercontent.com/57121112/123611897-05fcf280-d83d-11eb-9cf8-4e5d71e6eab4.png)
 
 ------------ 나의 생각 Note -----------------
